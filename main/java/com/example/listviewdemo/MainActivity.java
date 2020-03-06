@@ -83,8 +83,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if(v == updateButton){
-            Toast.makeText(MainActivity.this, "Chọn môn học cần cập nhật",
-                    Toast.LENGTH_LONG).show();
+//             Toast.makeText(MainActivity.this, "Chọn môn học cần cập nhật",
+//                     Toast.LENGTH_LONG).show();
 
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
